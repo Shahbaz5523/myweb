@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+
+	<div id="Header">
+
+		<img src="home.ico" style="float: left; width: 25px; height: 25px; margin-top: 10px; margin-left: 10px; margin-bottom: 10px;" >
+		<a href="#"><span style="color: white; float: left; margin: 10px;">Home</span></a>
+		<img src="add.ico" style="float: left; width: 25px; height: 25px; margin-top: 10px; margin-left: 10px; margin-bottom: 10px;" >
+		<a href="signup.html"><span style="color: white; float: left; margin: 10px;">Create New Account</span></a>
+		<img src="about.ico" style="float: right; width: 25px; height: 25px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px;" >
+		<a href="#"><span style="color: white; float: right; margin: 10px;">About Us</span></a>
+
+	</div>
+	<!-- End of header -->
+
+
+<!-- Div for Form -->
+	<div>
+	<form method="post" onSubmit= "return checkdata()" action="Home.html">
+		
+		<!-- Div for Login icon -->
+		<div id="ico">
+		<img src="user-3.ico" align="center" style="position: relative; margin-left:170px; width: 50px; height: 50px;">
+		</div>
+
+		<h3 align="center" style="cursor:default;">Login Form</h3>
+
+		<label>UserName:</label><br>
+		<input type="text" name="UserName" id="User" placeholder="Enter User Name here" required><br>
+		<label>Email:</label><br>
+		<input type="email" name="Email" id="Email" placeholder="Enter Email here" required><br>
+		<label>Password:</label><br>
+		<input type="Password" name="Password" id="Pass" placeholder="Enter Password here" required><br>
+		<input type="submit" name="Submit_Button" id="Submit" value="Login"><br>
+		<a href="#">Forget Password</a><br>
+
+	</form>
+	</div>
+
+<!-- Start Footer Div -->
+	<div id="Footer">
+			
+		<a href="#"><span style="color: white; float: left; margin: 15px;">Login Using Others</span></a>
+		<img src="fb.ico" style="float: left; width: 35px; height: 35px; margin-top: 10px; margin-left: 10px; margin-bottom: 10px;" >
+		<img src="gm.ico" style="float: left; width: 35px; height: 35px; margin-top: 10px; margin-left: 10px; margin-bottom: 10px;" >
+		<img src="tw.ico" style="float: left; width: 35px; height: 35px; margin-top: 10px; margin-left: 10px; margin-bottom: 10px;" >
+
+		<marquee behavior="alternate" style="display: inline-block;  color: white; width: 300px; float: right; margin: 15px; font-size: 15px; font-family: cursive;">Devolper: Shahbaz Rajpoot</marquee>
+	</div>
+
+</body>
+</html>
