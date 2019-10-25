@@ -1,5 +1,6 @@
 body{
-	margin: 0.2%;
+	margin: 2px;
+	overflow: hidden;
 }
 #Header{
 	background: rgba(51,156,255,1);
